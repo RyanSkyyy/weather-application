@@ -65,9 +65,9 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/wutianyu/.gradle/cache
 	android:label
 		ADDED from /Users/wutianyu/Downloads/weather-application-master/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /Users/wutianyu/Downloads/weather-application-master/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /Users/wutianyu/Downloads/weather-application-master/app/src/main/AndroidManifest.xml:11:9-46
 	android:icon
-		ADDED from /Users/wutianyu/Downloads/weather-application-master/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/wutianyu/Downloads/weather-application-master/app/src/main/AndroidManifest.xml:9:9-41
 	android:allowBackup
 		ADDED from /Users/wutianyu/Downloads/weather-application-master/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme

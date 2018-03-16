@@ -624,7 +624,8 @@ int drawable rainy_up 0x7f06006d
 int drawable sunny_small 0x7f06006e
 int drawable tooltip_frame_dark 0x7f06006f
 int drawable tooltip_frame_light 0x7f060070
-int drawable windy_small 0x7f060071
+int drawable weather 0x7f060071
+int drawable windy_small 0x7f060072
 int id ALT 0x7f070000
 int id CTRL 0x7f070001
 int id FUNCTION 0x7f070002

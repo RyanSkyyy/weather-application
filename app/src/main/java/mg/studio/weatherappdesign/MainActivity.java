@@ -46,25 +46,25 @@ public class MainActivity extends AppCompatActivity {
     public String getweekday(){
         final Calendar c = Calendar.getInstance();
         c.setTimeZone(TimeZone.getTimeZone("GMT+8:00"));
-        String mWay = String.valueOf(c.get(Calendar.DAY_OF_WEEK));
+        String mWeekday = String.valueOf(c.get(Calendar.DAY_OF_WEEK));
 
-        if("1".equals(mWay)){
-            mWay ="SUNDAY";
-        }else if("2".equals(mWay)){
-            mWay ="MONDAY";
-        }else if("3".equals(mWay)){
-            mWay ="TUESDAY";
-        }else if("4".equals(mWay)){
-            mWay ="WEDNESDAY";
-        }else if("5".equals(mWay)){
-            mWay ="THURSDAY";
-        }else if("6".equals(mWay)){
-            mWay ="FRIDAY";
-        }else if("7".equals(mWay)){
-            mWay ="SATURDAY";
+        if("1".equals(mWeekday)){
+            mWeekday ="SUNDAY";
+        }else if("2".equals(mWeekday)){
+            mWeekday ="MONDAY";
+        }else if("3".equals(mWeekday)){
+            mWeekday ="TUESDAY";
+        }else if("4".equals(mWeekday)){
+            mWeekday ="WEDNESDAY";
+        }else if("5".equals(mWeekday)){
+            mWeekday ="THURSDAY";
+        }else if("6".equals(mWeekday)){
+            mWeekday ="FRIDAY";
+        }else if("7".equals(mWeekday)){
+            mWeekday ="SATURDAY";
         }
 
-        return mWay;
+        return mWeekday;
     }
 
     public void btnClick(View view) {

@@ -2704,7 +2704,8 @@ public final class R {
     public static final int sunny_small=0x7f06006e;
     public static final int tooltip_frame_dark=0x7f06006f;
     public static final int tooltip_frame_light=0x7f060070;
-    public static final int windy_small=0x7f060071;
+    public static final int weather=0x7f060071;
+    public static final int windy_small=0x7f060072;
   }
   public static final class id {
     public static final int ALT=0x7f070000;

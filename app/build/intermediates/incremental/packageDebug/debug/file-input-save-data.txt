@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Mar 16 21:08:22 CST 2018
+#Fri Mar 16 22:52:30 CST 2018
 2.base=/Users/wutianyu/Downloads/weather-application-master/app/build/intermediates/transforms/dexMerger/debug/31
 5.set=DEX
 0.path=classes.dex
