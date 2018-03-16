@@ -14,18 +14,65 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.ProtocolException;
 import java.net.URL;
+import java.util.Calendar;
+
+import java.util.*;
 
 
 public class MainActivity extends AppCompatActivity {
 
+    public TextView mDate;
+    private TextView mWeekday;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mDate = (TextView)findViewById(R.id.tv_date) ;
+        mWeekday =(TextView)findViewById(R.id.weekday);
+    }
+
+    public String getdate(){
+        final Calendar c = Calendar.getInstance();
+        c.setTimeZone(TimeZone.getTimeZone("GMT+8:00"));
+
+        String mYear = String.valueOf(c.get(Calendar.YEAR)); // 获取当前年份
+        String mMonth = String.valueOf(c.get(Calendar.MONTH) + 1);// 获取当前月份
+        String mDay = String.valueOf(c.get(Calendar.DAY_OF_MONTH));// 获取当前月份的日期号码
+
+
+        return mMonth + "/" +mDay + "/" + mYear;
+    }
+
+    public String getweekday(){
+        final Calendar c = Calendar.getInstance();
+        c.setTimeZone(TimeZone.getTimeZone("GMT+8:00"));
+        String mWay = String.valueOf(c.get(Calendar.DAY_OF_WEEK));
+
+        if("1".equals(mWay)){
+            mWay ="SUNDAY";
+        }else if("2".equals(mWay)){
+            mWay ="MONDAY";
+        }else if("3".equals(mWay)){
+            mWay ="TUESDAY";
+        }else if("4".equals(mWay)){
+            mWay ="WEDNESDAY";
+        }else if("5".equals(mWay)){
+            mWay ="THURSDAY";
+        }else if("6".equals(mWay)){
+            mWay ="FRIDAY";
+        }else if("7".equals(mWay)){
+            mWay ="SATURDAY";
+        }
+
+        return mWay;
     }
 
     public void btnClick(View view) {
+
+        mDate.setText(getdate());
+        mWeekday.setText(getweekday());
         new DownloadUpdate().execute();
+
     }
 
 
