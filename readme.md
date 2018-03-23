@@ -7,4 +7,4 @@ What I have done in the first assignment:
 
 ![image](https://github.com/RyanSkyyy/weather-application/blob/master/weather.png)
 ![image](https://github.com/RyanSkyyy/weather-application/blob/master/weather2.png)
-![image](https://github.com/RyanSkyyy/weather-application/blob/master/assignment2.gif)
+*![image](https://github.com/RyanSkyyy/weather-application/blob/master/assignment2.gif)
