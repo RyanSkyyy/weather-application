@@ -1,4 +1,4 @@
-#Fri Mar 16 21:08:22 CST 2018
-base.0=/Users/wutianyu/Downloads/weather-application-master/app/build/intermediates/transforms/dexMerger/debug/22
+#Fri Mar 23 23:09:39 CST 2018
+base.0=/Users/wutianyu/Desktop/weather-application/app/build/intermediates/transforms/dexMerger/debug/3
 path.0=classes.dex
 renamed.0=classes.dex
